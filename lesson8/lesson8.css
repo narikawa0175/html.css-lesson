@@ -14,7 +14,7 @@ li{
 }
 
 li:nth-child(odd){
-  background-color: #d1d1d1;
+  background-color: #eee;
 }
 
 .list-text{
@@ -29,14 +29,19 @@ main{
 }
 
 .box{
+  background-color: #ffd700;
   width: 30%;
   height: 200px;
 }
 
 .box:nth-child(4n+1){
-  background-color: orange;
+  background-color: #ff8c00;
 }
 
 .box:nth-child(3n+2){
   margin: 0 5%;
+}
+
+.box:nth-child(n+4){
+  margin-top: 40px;
 }
