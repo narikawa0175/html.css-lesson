@@ -22,13 +22,21 @@ li:nth-child(odd){
 }
 
 main{
-  margin-bottom: 50px;
+  width: 960px;
+  margin: 0 auto 50px;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
 .box{
   width: 30%;
   height: 200px;
+}
+
+.box:nth-child(4n+1){
+  background-color: orange;
+}
+
+.box:nth-child(3n+2){
+  margin: 0 5%;
 }
