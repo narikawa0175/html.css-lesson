@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+main{
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.main-item{
+  width: 300px;
+  padding: 10px;
+  background-color: #EEEEEE;
+  position: relative;
+}
+
+.main-item:nth-child(2){
+  margin: 0 30px;
+}
+
+span{
+  background-color: #FF9A4B;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+}
+
+.main-image1{
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.main-image2{
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.main-image3{
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+h3{
+  margin: 15px 0 5px;
+}
+
+footer{
+  height: 50px;
+  background-color: #AAAAAA;
+}
