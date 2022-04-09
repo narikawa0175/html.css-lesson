@@ -70,15 +70,15 @@ footer{
   main{
     width: 100%;
     display: block;
+    margin-left: 5%;
   }
   
   .main-item{
     width: 90%;
-    margin-left: 5%;
   }
   
   .main-item:nth-child(2){
-    margin: 20px 0 20px 5%;
+    margin: 20px 0;
   }
   
   footer{
